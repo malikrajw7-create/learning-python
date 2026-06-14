@@ -1,13 +1,26 @@
-name = "python"
-male = True
-female = False
-a = None
-
-print(type(name))
-print(type(male))
-print(type(female))
+'''Take two numbers from user and print:
+    Sum
+    Data type of first number
+    Data type of second number'''
+a = int(input("Enter the first number :"))
+b = int(input("Enter the first number :"))
+total = a + b
+print(total)
 print(type(a))
+print(type(b))
 
-a,b= 1.5,3
-c =a//b
-print(c)
+#print all the types of this line of code
+a = 10
+b = 20.5
+c = "Python"
+d = True
+price = 99.99
+quantity = 5 
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(price))
+print(type(quantity))
+
+
